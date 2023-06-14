@@ -21,5 +21,6 @@ class CoctelesGetallController: UIViewController {
         
         //collectionviewOutlet.delegate = self
         //collectionviewOutlet.dataSource = self
+        collectionviewOutlet.register(UINib(nibName: "CoctelesCell", bundle: .main), forCellWithReuseIdentifier: "CoctelesCell")
     }
 }
