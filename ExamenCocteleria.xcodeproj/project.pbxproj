@@ -13,6 +13,9 @@
 		E3FDB0F82A3A687600028D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FDB0F62A3A687600028D13 /* Main.storyboard */; };
 		E3FDB0FA2A3A687800028D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FDB0F92A3A687800028D13 /* Assets.xcassets */; };
 		E3FDB0FD2A3A687800028D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FDB0FB2A3A687800028D13 /* LaunchScreen.storyboard */; };
+		F9FC0BBE2A3A70CD003A4B25 /* CoctelesGetallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC0BBD2A3A70CD003A4B25 /* CoctelesGetallController.swift */; };
+		F9FC0BC22A3A73F0003A4B25 /* CoctelesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC0BC02A3A73F0003A4B25 /* CoctelesCell.swift */; };
+		F9FC0BC32A3A73F0003A4B25 /* CoctelesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9FC0BC12A3A73F0003A4B25 /* CoctelesCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E3FDB0F92A3A687800028D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3FDB0FC2A3A687800028D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3FDB0FE2A3A687800028D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9FC0BBD2A3A70CD003A4B25 /* CoctelesGetallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctelesGetallController.swift; sourceTree = "<group>"; };
+		F9FC0BC02A3A73F0003A4B25 /* CoctelesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctelesCell.swift; sourceTree = "<group>"; };
+		F9FC0BC12A3A73F0003A4B25 /* CoctelesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoctelesCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		E3FDB1052A3A68F500028D13 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F9FC0BBF2A3A73C6003A4B25 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -95,8 +102,26 @@
 		E3FDB1072A3A690500028D13 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F9FC0BBC2A3A7089003A4B25 /* CoctelesCotroller */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9FC0BBC2A3A7089003A4B25 /* CoctelesCotroller */ = {
+			isa = PBXGroup;
+			children = (
+				F9FC0BBD2A3A70CD003A4B25 /* CoctelesGetallController.swift */,
+			);
+			path = CoctelesCotroller;
+			sourceTree = "<group>";
+		};
+		F9FC0BBF2A3A73C6003A4B25 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F9FC0BC02A3A73F0003A4B25 /* CoctelesCell.swift */,
+				F9FC0BC12A3A73F0003A4B25 /* CoctelesCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +185,7 @@
 				E3FDB0FD2A3A687800028D13 /* LaunchScreen.storyboard in Resources */,
 				E3FDB0FA2A3A687800028D13 /* Assets.xcassets in Resources */,
 				E3FDB0F82A3A687600028D13 /* Main.storyboard in Resources */,
+				F9FC0BC32A3A73F0003A4B25 /* CoctelesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,8 +196,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9FC0BBE2A3A70CD003A4B25 /* CoctelesGetallController.swift in Sources */,
 				E3FDB0F52A3A687600028D13 /* ViewController.swift in Sources */,
 				E3FDB0F12A3A687600028D13 /* AppDelegate.swift in Sources */,
+				F9FC0BC22A3A73F0003A4B25 /* CoctelesCell.swift in Sources */,
 				E3FDB0F32A3A687600028D13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
