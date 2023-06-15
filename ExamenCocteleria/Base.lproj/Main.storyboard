@@ -1,30 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Q4Q-vj-zsG">
+>>>>>>> EDAH
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+<<<<<<< HEAD
+=======
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+>>>>>>> EDAH
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="GNC-OC-FjV">
             <objects>
+                <navigationController id="Q4Q-vj-zsG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HBY-DB-M5d">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nMU-Yn-0R0" kind="relationship" relationship="rootViewController" id="yor-CZ-Vx4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6JK-kI-irL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1561" y="-101"/>
+        </scene>
+        <!--Favoritos-->
+        <scene sceneID="qkK-ON-dMM">
+            <objects>
+                <viewController id="RSU-ZO-He9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="whf-vw-dHo">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Mtr-Xu-EtJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favoritos" image="heart.circle" catalog="system" id="ONY-w2-bER"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hmi-1W-VlW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="413" y="147"/>
+        </scene>
+        <!--Cocteles -->
+        <scene sceneID="71G-Bz-IbT">
+            <objects>
+                <viewController id="RPe-tL-TF7" customClass="CoctelesGetallController" customModule="ExamenCocteleria" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C5r-R4-eAf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="GFy-Xx-giZ">
+                                <rect key="frame" x="0.0" y="65" width="393" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="RPe-tL-TF7" id="7qL-7o-pdv"/>
+                                </connections>
+                            </searchBar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2rY-kW-hfL">
+                                <rect key="frame" x="0.0" y="129" width="393" height="640"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0v8-Yv-UUT">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="umE-c4-Fav">
+                                        <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0eQ-92-rAx">
+                                            <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jLT-Sj-Zfc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GFy-Xx-giZ" firstAttribute="top" secondItem="C5r-R4-eAf" secondAttribute="top" constant="65" id="0Yx-64-cmF"/>
+                            <constraint firstItem="jLT-Sj-Zfc" firstAttribute="trailing" secondItem="2rY-kW-hfL" secondAttribute="trailing" id="4tN-Fd-qS6"/>
+                            <constraint firstItem="2rY-kW-hfL" firstAttribute="top" secondItem="GFy-Xx-giZ" secondAttribute="bottom" constant="8" id="DEU-cQ-O2K"/>
+                            <constraint firstItem="GFy-Xx-giZ" firstAttribute="trailing" secondItem="jLT-Sj-Zfc" secondAttribute="trailing" id="LSP-sF-9Cd"/>
+                            <constraint firstItem="2rY-kW-hfL" firstAttribute="leading" secondItem="jLT-Sj-Zfc" secondAttribute="leading" id="MCz-jq-our"/>
+                            <constraint firstItem="jLT-Sj-Zfc" firstAttribute="bottom" secondItem="2rY-kW-hfL" secondAttribute="bottom" id="cTu-48-vwF"/>
+                            <constraint firstItem="GFy-Xx-giZ" firstAttribute="leading" secondItem="jLT-Sj-Zfc" secondAttribute="leading" id="y1Q-cu-FU8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cocteles " image="cup.and.saucer.fill" catalog="system" id="VwW-zR-qx5"/>
+                    <connections>
+                        <outlet property="BarraBusqueda" destination="GFy-Xx-giZ" id="d3A-F7-Zep"/>
+                        <outlet property="collectionviewOutlet" destination="2rY-kW-hfL" id="9Oc-dy-Rif"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Xr-zb-3MZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="394.6564885496183" y="-511.26760563380282"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k86-sT-5Mq">
+            <objects>
+<<<<<<< HEAD
                 <viewController id="BYZ-38-t0r" customClass="TESTViewController" customModule="ExamenCocteleria" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+=======
+                <viewController id="Vm9-VH-par" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MiF-mL-Jt4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Fr7-JY-chg"/>
+>>>>>>> EDAH
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xTE-pi-zCt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1317" y="-511"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="P0D-Gd-Mqj">
+            <objects>
+                <tabBarController id="nMU-Yn-0R0" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="4bR-w8-ZNn"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sTU-ZN-Z9N">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="RPe-tL-TF7" kind="relationship" relationship="viewControllers" id="qJz-w7-VAg"/>
+                        <segue destination="RSU-ZO-He9" kind="relationship" relationship="viewControllers" id="JOF-oA-cS7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rm2-ns-Ptd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="48" y="-2"/>
         </scene>
     </scenes>
     <resources>
+=======
+            <point key="canvasLocation" x="-692" y="-101"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cup.and.saucer.fill" catalog="system" width="128" height="91"/>
+        <image name="heart.circle" catalog="system" width="128" height="123"/>
+>>>>>>> EDAH
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

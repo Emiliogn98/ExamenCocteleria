@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EFE27F9A-2EED-403F-A06E-5B8277929B69"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCocteleria/Controller/TESTViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - d0bd73ae5dee5dd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - 970f1eee65dee3de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.Categoria&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - 7b988a31b62a6101"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - 7b988a31b62a6101"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - bc0122250521c1e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.Drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - bc0122250521c1e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.Drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - 970f1eee65dee3de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.Categoria&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - bc0122250521c1e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.Drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - 49a7ef885df602cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.DrinksCategoria&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - 49a7ef885df61c1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.DrinksCategoria&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "6F2E7B88-1FDC-48E6-BCBD-FDAC98BF3CDC - 7b988a31b62a7f95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8E973BE-5238-4D83-9D76-D87F8114E416"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCocteleria/Controller/TESTViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8E973BE-5238-4D83-9D76-D87F8114E416 - d0bd73ae5dee5db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "F8E973BE-5238-4D83-9D76-D87F8114E416 - cbf5fe27d8a18f39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.Categoria&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "F8E973BE-5238-4D83-9D76-D87F8114E416 - 5d2494eb814d0cea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "F8E973BE-5238-4D83-9D76-D87F8114E416 - f436a5529d450c8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.Drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "F8E973BE-5238-4D83-9D76-D87F8114E416 - ee83fa758eb6fc25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.DrinksCategoria&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "F8E973BE-5238-4D83-9D76-D87F8114E416 - d0bd73ae5dee5ce9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "F8E973BE-5238-4D83-9D76-D87F8114E416 - ee83fa758eb6e2f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.DrinksCategoria&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "F8E973BE-5238-4D83-9D76-D87F8114E416 - d0bd73ae5dee4327"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "F8E973BE-5238-4D83-9D76-D87F8114E416 - 5d2494eb814d127e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.updateUI() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29078453-46CD-4EA6-B334-468D089FD884"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCocteleria/Controller/TESTViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "29078453-46CD-4EA6-B334-468D089FD884 - 3bc0f18b97df20f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.DrinksCategoria&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "29078453-46CD-4EA6-B334-468D089FD884 - b23b65749d8c62bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamenCocteleria.TESTViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "29078453-46CD-4EA6-B334-468D089FD884 - b23b65749d8c6279"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamenCocteleria.TESTViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "813F6D59-61E8-4409-96B7-6F12EAF7FB96"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCocteleria/Controller/TESTViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "813F6D59-61E8-4409-96B7-6F12EAF7FB96 - b23b65749d8c63c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamenCocteleria.TESTViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "813F6D59-61E8-4409-96B7-6F12EAF7FB96 - 65a7c68e260987ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.DrinksCategoria&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F3A6CDF-1160-48B6-9C85-95A24047003A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCocteleria/Controller/TESTViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3F3A6CDF-1160-48B6-9C85-95A24047003A - b23b65749d8c63c4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamenCocteleria.TESTViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "3F3A6CDF-1160-48B6-9C85-95A24047003A - 65a7c68e260987ad"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.DrinksCategoria&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.TESTViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/TESTViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5C06820-391A-416A-B43A-F50D38837FF6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCocteleria/ViewModel/DrinkViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "Get(responseResult:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5C06820-391A-416A-B43A-F50D38837FF6 - 9feb26ed155aee50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static ExamenCocteleria.DrinkViewModel.Get(responseResult: (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/ViewModel/DrinkViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "D5C06820-391A-416A-B43A-F50D38837FF6 - 9feb26ed155aee50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static ExamenCocteleria.DrinkViewModel.Get(responseResult: (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/ViewModel/DrinkViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "D5C06820-391A-416A-B43A-F50D38837FF6 - 9feb26ed155aeeee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static ExamenCocteleria.DrinkViewModel.Get(responseResult: (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/ViewModel/DrinkViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "D5C06820-391A-416A-B43A-F50D38837FF6 - 9feb26ed155aeeee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static ExamenCocteleria.DrinkViewModel.Get(responseResult: (Swift.Optional&lt;ExamenCocteleria.Result&lt;ExamenCocteleria.drinks&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/ViewModel/DrinkViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
