@@ -10,6 +10,7 @@ import UIKit
 class CoctelesGetallController: UIViewController {
     
     var cocteles  : [Int] = []
+    var IdCoctel : Int = 0
     var categoria = "alcoholica"
     var imagen : UIImage =  UIImage(named: "Apple-iPhone-14-iPhone-14-Plus-2up-PRODUCT-RED-220907-geo_inline.jpg.large")!
     
@@ -38,7 +39,7 @@ extension CoctelesGetallController : UICollectionViewDataSource, UICollectionVie
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //cocteles.count
-        4
+        20
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -51,5 +52,23 @@ extension CoctelesGetallController : UICollectionViewDataSource, UICollectionVie
     
         
         return item
+    }
+    
+   
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        
+        IdCoctel = 1//cocteles[indexPath.row].IdCoctel
+        
+        self.IdCoctel = 1//self.cocteles[indexPath.row].IdCoctel
+        self.performSegue(withIdentifier: "seguesCocteles", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender : (Any)? )
+    {
+        if segue.identifier == "seguesCocteles"
+        {
+            let formControl = segue.destination as!  CoctelesController
+            formControl.IdCoctel  = self.IdCoctel
+        }
     }
 }
