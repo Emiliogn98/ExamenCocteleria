@@ -577,5 +577,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBF7558D-BBE6-4DB1-B6CD-5DFDC8BBA72E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamenCocteleria/Controller/CoctelesCotroller/DetalleController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DBF7558D-BBE6-4DB1-B6CD-5DFDC8BBA72E - 93dcdd9fa224d0ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamenCocteleria.DetalleController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/CoctelesCotroller/DetalleController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "DBF7558D-BBE6-4DB1-B6CD-5DFDC8BBA72E - 6dab847265242a8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;ExamenCocteleria.Drink&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ExamenCocteleria.DetalleController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExamenCocteleria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/ExamenCocteleria/ExamenCocteleria/Controller/CoctelesCotroller/DetalleController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

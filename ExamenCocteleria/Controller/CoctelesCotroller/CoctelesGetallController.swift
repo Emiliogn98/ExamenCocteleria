@@ -72,15 +72,17 @@ class CoctelesGetallController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
                 //controlar que hacer antes de ir a la siguiente vista
         
-//                if segue.identifier == "AreaDepartamentoSegues" {
-//                    let formControl = segue.destination as! DepartamentoController
+//                if segue.identifier == "CoctelesDetallesSegue" {
+//                    let formControl = segue.destination as! DetalleController
 //                    formControl.IdCoctel = self.IdCoctel
 //
 //                }
         
-//                if segue.identifier == "AreaProductoSegue"{
-//                    let formControl = segue.destination as! ProductoCollectionController
+//                if segue.identifier == "BuscadorDetalleSegue"{
+//                    let formControl = segue.destination as! DatalleController
 //                    formControl.nombreCoctel = self.nombreCoctel!
+                   // formControl.IdCoctel = self.IdCoctel
+       
 //                }
        
             }
