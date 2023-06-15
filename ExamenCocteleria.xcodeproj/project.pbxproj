@@ -10,10 +10,10 @@
 		E3FDB0F12A3A687600028D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FDB0F02A3A687600028D13 /* AppDelegate.swift */; };
 		E3FDB0F32A3A687600028D13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FDB0F22A3A687600028D13 /* SceneDelegate.swift */; };
 		E3FDB0F52A3A687600028D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FDB0F42A3A687600028D13 /* ViewController.swift */; };
-		E3FDB0F82A3A687600028D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FDB0F62A3A687600028D13 /* Main.storyboard */; };
 		E3FDB0FA2A3A687800028D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FDB0F92A3A687800028D13 /* Assets.xcassets */; };
 		E3FDB0FD2A3A687800028D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FDB0FB2A3A687800028D13 /* LaunchScreen.storyboard */; };
 		F9A248DD2A3B7BA100FA9161 /* CoctelesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A248DC2A3B7BA100FA9161 /* CoctelesController.swift */; };
+		F9A248E32A3BC5F600FA9161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A248E22A3BC5F600FA9161 /* Main.storyboard */; };
 		F9FC0BBE2A3A70CD003A4B25 /* CoctelesGetallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC0BBD2A3A70CD003A4B25 /* CoctelesGetallController.swift */; };
 		F9FC0BC22A3A73F0003A4B25 /* CoctelesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC0BC02A3A73F0003A4B25 /* CoctelesCell.swift */; };
 		F9FC0BC32A3A73F0003A4B25 /* CoctelesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9FC0BC12A3A73F0003A4B25 /* CoctelesCell.xib */; };
@@ -25,11 +25,11 @@
 		E3FDB0F02A3A687600028D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3FDB0F22A3A687600028D13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E3FDB0F42A3A687600028D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3FDB0F72A3A687600028D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3FDB0F92A3A687800028D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3FDB0FC2A3A687800028D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3FDB0FE2A3A687800028D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9A248DC2A3B7BA100FA9161 /* CoctelesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctelesController.swift; sourceTree = "<group>"; };
+		F9A248E22A3BC5F600FA9161 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F9FC0BBD2A3A70CD003A4B25 /* CoctelesGetallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctelesGetallController.swift; sourceTree = "<group>"; };
 		F9FC0BC02A3A73F0003A4B25 /* CoctelesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctelesCell.swift; sourceTree = "<group>"; };
 		F9FC0BC12A3A73F0003A4B25 /* CoctelesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoctelesCell.xib; sourceTree = "<group>"; };
@@ -73,10 +73,10 @@
 				E3FDB0F02A3A687600028D13 /* AppDelegate.swift */,
 				E3FDB0F22A3A687600028D13 /* SceneDelegate.swift */,
 				E3FDB0F42A3A687600028D13 /* ViewController.swift */,
-				E3FDB0F62A3A687600028D13 /* Main.storyboard */,
 				E3FDB0F92A3A687800028D13 /* Assets.xcassets */,
 				F9FC0BC42A3A9723003A4B25 /* Apple-iPhone-14-iPhone-14-Plus-2up-PRODUCT-RED-220907-geo_inline.jpg.large.jpg */,
 				E3FDB0FB2A3A687800028D13 /* LaunchScreen.storyboard */,
+				F9A248E22A3BC5F600FA9161 /* Main.storyboard */,
 				E3FDB0FE2A3A687800028D13 /* Info.plist */,
 			);
 			path = ExamenCocteleria;
@@ -197,8 +197,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3FDB0FD2A3A687800028D13 /* LaunchScreen.storyboard in Resources */,
+				F9A248E32A3BC5F600FA9161 /* Main.storyboard in Resources */,
 				E3FDB0FA2A3A687800028D13 /* Assets.xcassets in Resources */,
-				E3FDB0F82A3A687600028D13 /* Main.storyboard in Resources */,
 				F9FC0BC52A3A9723003A4B25 /* Apple-iPhone-14-iPhone-14-Plus-2up-PRODUCT-RED-220907-geo_inline.jpg.large.jpg in Resources */,
 				F9FC0BC32A3A73F0003A4B25 /* CoctelesCell.xib in Resources */,
 			);
@@ -223,14 +223,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E3FDB0F62A3A687600028D13 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3FDB0F72A3A687600028D13 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3FDB0FB2A3A687800028D13 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
