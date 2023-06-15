@@ -15,6 +15,8 @@
 		E3FDB0FD2A3A687800028D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FDB0FB2A3A687800028D13 /* LaunchScreen.storyboard */; };
 		E3FF34632A3B7EAB00AD6597 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FF34622A3B7EAB00AD6597 /* Ingredient.swift */; };
 		E3FF34652A3B7EC800AD6597 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FF34642A3B7EC800AD6597 /* Drink.swift */; };
+		E3FF34672A3B7F4900AD6597 /* DrinksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FF34662A3B7F4900AD6597 /* DrinksViewModel.swift */; };
+		E3FF34692A3B7F8600AD6597 /* IngredientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FF34682A3B7F8600AD6597 /* IngredientsViewModel.swift */; };
 		F9FC0BBE2A3A70CD003A4B25 /* CoctelesGetallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC0BBD2A3A70CD003A4B25 /* CoctelesGetallController.swift */; };
 		F9FC0BC22A3A73F0003A4B25 /* CoctelesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC0BC02A3A73F0003A4B25 /* CoctelesCell.swift */; };
 		F9FC0BC32A3A73F0003A4B25 /* CoctelesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9FC0BC12A3A73F0003A4B25 /* CoctelesCell.xib */; };
@@ -32,6 +34,8 @@
 		E3FDB0FE2A3A687800028D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3FF34622A3B7EAB00AD6597 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		E3FF34642A3B7EC800AD6597 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		E3FF34662A3B7F4900AD6597 /* DrinksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewModel.swift; sourceTree = "<group>"; };
+		E3FF34682A3B7F8600AD6597 /* IngredientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewModel.swift; sourceTree = "<group>"; };
 		F9FC0BBD2A3A70CD003A4B25 /* CoctelesGetallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctelesGetallController.swift; sourceTree = "<group>"; };
 		F9FC0BC02A3A73F0003A4B25 /* CoctelesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoctelesCell.swift; sourceTree = "<group>"; };
 		F9FC0BC12A3A73F0003A4B25 /* CoctelesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoctelesCell.xib; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 		E3FDB1062A3A68FC00028D13 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E3FF34662A3B7F4900AD6597 /* DrinksViewModel.swift */,
+				E3FF34682A3B7F8600AD6597 /* IngredientsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -208,11 +214,13 @@
 			files = (
 				F9FC0BBE2A3A70CD003A4B25 /* CoctelesGetallController.swift in Sources */,
 				E3FDB0F52A3A687600028D13 /* ViewController.swift in Sources */,
+				E3FF34692A3B7F8600AD6597 /* IngredientsViewModel.swift in Sources */,
 				E3FF34632A3B7EAB00AD6597 /* Ingredient.swift in Sources */,
 				E3FDB0F12A3A687600028D13 /* AppDelegate.swift in Sources */,
 				F9FC0BC22A3A73F0003A4B25 /* CoctelesCell.swift in Sources */,
 				E3FF34652A3B7EC800AD6597 /* Drink.swift in Sources */,
 				E3FDB0F32A3A687600028D13 /* SceneDelegate.swift in Sources */,
+				E3FF34672A3B7F4900AD6597 /* DrinksViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
